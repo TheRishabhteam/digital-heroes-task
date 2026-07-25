@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — TechFlow</title>
+    <meta name="description" content="Get in touch with TechFlow. Start your free trial today." />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contact — TechFlow" />
+    <meta property="og:description" content="Get in touch with TechFlow." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://digital-heroes-task-nu.vercel.app/contact.html" />
+
+    <!-- Structured Data: Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "TechFlow",
+        "url": "https://digital-heroes-task-nu.vercel.app",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "hello@techflow.com"
+        }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main id="main">
+        <section class="page-header">
+            <div class="container">
+                <h1>Get in touch</h1>
+                <p>We'd love to hear from you. Start your free trial today.</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you! We\'ll be in touch.');">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe" />
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="john@company.com" />
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required placeholder="Tell us about your project..."></textarea>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+    <script src="js/load.js"></script>
+
+</body>
+</html>
